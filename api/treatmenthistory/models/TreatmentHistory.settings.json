@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "treatmenthistory",
+  "info": {
+    "name": "treatmentHistory",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "type": {
+      "default": "",
+      "type": "string"
+    },
+    "status": {
+      "default": false,
+      "type": "boolean"
+    }
+  }
+}

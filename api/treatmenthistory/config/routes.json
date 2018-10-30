@@ -1,0 +1,100 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/treatmenthistories",
+      "handler": "Treatmenthistory.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/treatmenthistories/count",
+      "handler": "Treatmenthistory.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/treatmenthistories/:_id",
+      "handler": "Treatmenthistory.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/treatmenthistories",
+      "handler": "Treatmenthistory.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/treatmenthistories/:_id",
+      "handler": "Treatmenthistory.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/treatmenthistories/:_id",
+      "handler": "Treatmenthistory.destroy",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/treatmentHistories",
+      "handler": "TreatmentHistory.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/treatmentHistories/count",
+      "handler": "TreatmentHistory.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/treatmentHistories/:_id",
+      "handler": "TreatmentHistory.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/treatmentHistories",
+      "handler": "TreatmentHistory.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/treatmentHistories/:_id",
+      "handler": "TreatmentHistory.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/treatmentHistories/:_id",
+      "handler": "TreatmentHistory.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
